@@ -17,9 +17,6 @@
   ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "dependencies": {
-    "java-bridge": "^1.1.1"
-  },
   "engines": {
     "node": ">=12.0.0"
   },
@@ -37,5 +34,8 @@
     "pom.xml",
     "README.md",
     "LICENSE"
-  ]
-} 
+  ],
+  "dependencies": {
+    "java-bridge": "^2.7.0"
+  }
+}
