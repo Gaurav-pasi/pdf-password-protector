@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pdf-password-protector.git"
+    "url": "https://github.com/Gaurav-pasi/pdf-password-protector.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/pdf-password-protector/issues"
+    "url": "https://github.com/Gaurav-pasi/pdf-password-protector/issues"
   },
-  "homepage": "https://github.com/yourusername/pdf-password-protector#readme",
+  "homepage": "https://github.com/Gaurav-pasi/pdf-password-protector#readme",
   "files": [
     "index.js",
     "src/",
