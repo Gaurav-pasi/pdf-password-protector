@@ -1,6 +1,6 @@
 {
   "name": "pdf-password-protector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Node.js package to password protect PDF files using Java PDFBox",
   "main": "index.js",
   "scripts": {
