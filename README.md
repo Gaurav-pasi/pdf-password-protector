@@ -18,17 +18,24 @@ npm install pdf-password-protector
 ```javascript
 const PdfPasswordProtector = require('pdf-password-protector');
 
-// Protect a PDF with a password
-await PdfPasswordProtector.protect('input.pdf', 'protected.pdf', 'mypassword123');
+async function main() {
+  // Protect a PDF with a user password
+  await PdfPasswordProtector.protect('sample.pdf', 'protected.pdf', 'mypassword123');
 
-// Check if a PDF is protected
-const isProtected = await PdfPasswordProtector.isProtected('document.pdf');
-console.log(`Is protected: ${isProtected}`);
+  // Check if user PDF is protected
+  const isProtectedUser = await PdfPasswordProtector.isProtected('protected.pdf');
+  console.log(`User pdf is protected: ${isProtectedUser}`);
 
-// Use different user and owner passwords
-await PdfPasswordProtector.protect('input.pdf', 'protected.pdf', 'userpass123', {
-  ownerPassword: 'ownerpass456'
-});
+  // Use different user and owner passwords
+  await PdfPasswordProtector.protect('sample.pdf', 'ownerProtected.pdf', 'userpass123', {
+    ownerPassword: 'ownerpass456'
+  });
+  // Check if owner PDF is protected
+  const isProtectedOwner = await PdfPasswordProtector.isProtected('ownerProtected.pdf');
+  console.log(`Owner pdf is protected: ${isProtectedOwner}`);
+}
+
+main().catch(console.error);
 ```
 
 ## API
