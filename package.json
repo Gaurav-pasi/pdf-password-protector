@@ -15,7 +15,7 @@
     "secure",
     "pdfbox"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Gaurav Pasi",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
