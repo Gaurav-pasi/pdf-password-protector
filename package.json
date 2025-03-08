@@ -1,0 +1,41 @@
+{
+  "name": "pdf-password-protector",
+  "version": "1.0.0",
+  "description": "A Node.js package to password protect PDF files using Java PDFBox",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "mvn clean package"
+  },
+  "keywords": [
+    "pdf",
+    "password",
+    "protection",
+    "encrypt",
+    "secure",
+    "pdfbox"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "java-bridge": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pdf-password-protector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pdf-password-protector/issues"
+  },
+  "homepage": "https://github.com/yourusername/pdf-password-protector#readme",
+  "files": [
+    "index.js",
+    "src/",
+    "pom.xml",
+    "README.md",
+    "LICENSE"
+  ]
+} 
