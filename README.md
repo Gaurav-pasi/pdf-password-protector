@@ -4,8 +4,16 @@ A simple Node.js package that uses Java to add strong password protection to PDF
 
 ## Prerequisites
 
-- Node.js
-- Java (JDK 8 or higher)
+Before installing this package, make sure you have the following installed on your system:
+
+- Node.js (version 12.0.0 or higher)
+- Java Runtime Environment (JRE 8 or higher)
+
+You can verify the installations by running:
+```bash
+node --version
+java -version
+```
 
 ## Installation
 

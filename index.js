@@ -9,7 +9,7 @@ class PdfPasswordProtector {
    * @returns {string} Path to the JAR file
    */
   static _getJarPath() {
-    return path.join(__dirname, 'target', 'pdf-password-protector-1.0-SNAPSHOT-jar-with-dependencies.jar');
+    return path.join(__dirname, 'lib', 'pdf-password-protector.jar');
   }
 
   /**
